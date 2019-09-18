@@ -31,9 +31,82 @@
 
   </header>
   <main class="catalog-content">
-    <h1 class="page-title visually-hidden">Arkana catalog clothing store</h1>
-    <section class="filters">
-      <h2 class=" visually-hidden filters"></h2>
+    <h1 class="catalog-page-title visually-hidden">Arkana catalog clothing store</h1>
+    <section class="catalog-navigation">
+      <h2 class="visually-hidden cat-nav">Filters</h2>
+      <ul class="wear-category">
+        <li class="category-item">
+          <a href="#">Top</a>
+          <img src="" alt="">
+        </li>
+        <li class="category-item">
+          <a href="#">T-Shirts & Blouses</a>
+          <img src="" alt="">
+        </li>
+        <ul class="wear-subcategory">
+          <li class="subcategory-item"><a href="#">Blouses</a></li>
+          <li class="subcategory-item"><a href="#">Shirts</a></li>
+          <li class="subcategory-item"><a href="#">T-Shirts</a></li>
+        </ul>
+        <li class="category-item"><a href="#">T-Sherts</a></li>
+        <li class="category-item"><a href="#">Outwear</a></li>
+      </ul>
+    </section>
+      <section class="filters">
+        <h2 class="filters">Filter by</h2>
+        <form class="filter" action="index.html" method="get">
+  <fieldset>
+    <legend class="filter-title">Categories</legend>
+    <ul>
+      <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="dresses" id="gown">
+        <label class="label-radio" for="gown">Dresses</label>
+      </li>
+      <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="blouses" id="blouse">
+        <label class="label-radio" for="blouse">Blouses</label>
+      </li>
+      <li class="filter-option">
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="outwear" id="overdress">
+        <label class="label-radio" for="overdress">Outwear</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend class="filter-title">Color</legend>
+    <ul>
+      <li>
+        <input type="text">
+        <label for=""></label>
+      </li>
+      <li>
+        <input type="text">
+        <label for=""></label>
+      </li>
+      <li>
+        <input type="text">
+        <label for=""></label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend class="filter-title">Compositions</legend>
+    <ul>
+      <li>
+        <input type="text">
+        <label for=""></label>
+      </li>
+      <li>
+        <input type="text">
+        <label for=""></label>
+      </li>
+      <li>
+        <input type="text">
+        <label for=""></label>
+      </li>
+    </ul>
+  </fieldset>
+</form>
 
     </section>
     <section class="catalog">
