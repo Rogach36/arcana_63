@@ -76,16 +76,20 @@
     <legend class="filter-title">Color</legend>
     <ul>
       <li>
-        <input type="text">
-        <label for=""></label>
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-1" value="beige" id="color-beige">
+        <label for="color-beige">Beige (1)</label>
       </li>
       <li>
-        <input type="text">
-        <label for=""></label>
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-2" value="black" id="color-black">
+        <label for="color-black">Black (2)</label>
       </li>
       <li>
-        <input type="text">
-        <label for=""></label>
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-3" value="yellow" id="color-yellow">
+        <label for="color-yellow">Yellow (4)</label>
+      </li>
+      <li>
+        <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-4" value="white" id="color-white">
+        <label for="color-white">White (2)</label>
       </li>
     </ul>
   </fieldset>
@@ -93,24 +97,47 @@
     <legend class="filter-title">Compositions</legend>
     <ul>
       <li>
-        <input type="text">
-        <label for=""></label>
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-1" value="cotton" id="cotton-fabric">
+        <label for="">Cotton (3)</label>
       </li>
       <li>
-        <input type="text">
-        <label for=""></label>
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-2" value="polyester" id="polyester-fabric">
+        <label for="">Polyester (2)</label>
       </li>
       <li>
-        <input type="text">
-        <label for=""></label>
+        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-3" value="viscose" id="viscose-fabric">
+        <label for="">Viscose (2)</label>
       </li>
     </ul>
   </fieldset>
 </form>
-
+<button class="button filter-button" type="submit">Clean All</button>
     </section>
     <section class="catalog">
-      <h2 class="visually-hidden catalog"></h2>
+      <h2 class="dresses-catalog">Dresses</h2>
+      <p class="description-page">
+        Find you favorites dresses from our wide choice of evening, casual or summer dresses! We offer dresses for every day, every style and every occasion.
+      </p>
+      <section class="filter-sort">
+        <h2 class="visually-hidden">Sorting</h2>
+        <div class="sorting-dresses">
+          <p class="result-description">There are 5 products</p>
+          <p class="type-sorting">Sort by:</p>
+          <ul>
+            <li class="sorting-item">
+              <p>Prise, high to low<p>
+              <img src="" alt="arrow-sort">
+            </li>
+          </ul>
+          <p class="active-filter">Active filters</p>
+          <ul>
+            <li class="current-filter">
+              <p>Casual dresses</p>
+            </li>
+          </ul>
+        </div>
+
+      </section>
     </section>
 
   </main>
