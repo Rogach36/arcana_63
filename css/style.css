@@ -40,4 +40,12 @@ img {
 
 .cover-slide {
   background-image: url("../img/slide.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #bdbdbd;
+}
+
+.container-center {
+  width: 1860px;
+  margin: 0 auto;
 }
