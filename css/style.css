@@ -43,9 +43,36 @@ img {
   background-position: top center;
   background-repeat: no-repeat;
   background-color: #bdbdbd;
+  color: #161918;
 }
 
 .container-center {
   width: 1860px;
   margin: 0 auto;
+}
+
+.main-navigation {
+font-size: 11px;
+line-height: 64px;
+font-weight: 400;
+}
+
+
+.site-navigation,
+.search,
+.cart {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #161918;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.search a:hover,
+.search a:focus,
+.cart a:hover,
+.cart a:focus {
+  color: red;
 }
