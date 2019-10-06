@@ -44,44 +44,37 @@
           <p class="description-slide">Duis aute irure in reprehenderit in voluptate velit esse cilum dolore eu fugiat nulla pariatur.</p>
           <a class="button inform-button slide-button" href="">Discovery more</a>
         </div>
-        <div class="feature-slide feature-slide-2">
-          <p class="title-slide"></p>
-          <p class="description-slide"></p>
-        </div>
-        <div class="feature-slide feature-slide-3">
-          <p class="title-slide"></p>
-          <p class="description-slide"></p>
-        </div>
-        <div class="sliders-controls-1">
+        <ul class="slides-swithes-1">
+          <li class="slide-radio">
+            <button class="slide-btn"><span class="visually-hidden">Первый слайд</span></button>
+          </li>
+          <li class="slide-radio">
+            <button class="slide-btn"><span class="visually-hidden">Второй слайд</span></button>
+          </li>
+          <li class="slide-radio">
+            <button class="slide-btn"><span class="visually-hidden">Третий слайд</span></button>
+          </li>
+        </ul>
+        <!-- выше альтернативная разметка переключателей
+        здесь уместнее button а не ссылки, т.к. переключатели хоть и интерактив.
+        элементы, но никуда не ведут, т.е. некуда прописывать адрес, они просто меняют
+        состояние элемента на странице, а для доступности в каждом интер. эл-те должен\
+        содержаться текстовый блок -->
+        <!-- <div class="sliders-controls-1">
           <a class="active-control control-1" href="activ-slide.html"></a>
           <a class="control-2" href="#"></a>
           <a class="control-3" href="#"></a>
-          <!-- <ul class="slides-swithes" альтернативная разметка переключателей
-          здесь уместнее button а не ссылки, т.к. переключатели хоть и интерактив.
-          элементы, но никуда не ведут, т.е. некуда прописывать адрес, они просто меняют
-          состояние элемента на странице, а для доступности в каждом интер. эл-те должен\
-          содержаться текстовый блок>
-            <li class="slide-radio">
-              <button class="slide-btn"><span class="visually-hidden">Первый слайд</span></button>
-            </li>
-            <li class="slide-radio">
-              <button class="slide-btn"><span class="visually-hidden">Второй слайд</span></button>
-            </li>
-            <li class="slide-radio">
-              <button class="slide-btn"><span class="visually-hidden">Третий слайд</span></button>
-            </li>
-          </ul> -->
-        </div>
-        <div class="sliders-controls-2">
-          <a class="left-control" href="#"></a>
-          <a class="right-control" href="#"></a>
+        </div> -->
+        <div class="sliders-swithes-2">
+          <button class="left-control"><span class="visually-hidden">Переключатель влево</span></button>
+          <button class="right-control"><span class="visually-hidden">Переключатель вправо</span></button>
         </div>
       </section>
     </div>
 
       <section class="services">
         <h2 class="visually-hidden">Услуги</h2>
-        <ul>
+        <ul class="service-list">
           <li class="service-item">
             <img src="img/services/discount.png" alt="discount">
             <h3>Discount system</h3>
