@@ -92,3 +92,31 @@ text-transform: uppercase;
 .service-list {
   list-style: none;
 }
+
+.service-item {
+  text-align: center;
+}
+
+.service-item h3 {
+  color: #000000;
+  line-height: 64px;
+  font-size: 14px;
+}
+
+.service-item p {
+  color: #929292;
+}
+
+.goods-list-short {
+  list-style: none;
+}
+
+.goods-list-short a {
+  color: #000000;
+}
+
+.trending h2 {
+  text-align: center;
+  font-size: 42px;
+  line-height: 64px;
+  }
