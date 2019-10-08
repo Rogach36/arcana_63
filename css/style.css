@@ -113,6 +113,13 @@ text-transform: uppercase;
 
 .goods-list-short a {
   color: #000000;
+  font-size: 11px;
+}
+
+.goods-list-short a:hover,
+.goods-list-short a:focus {
+  color: #ffffff;
+
 }
 
 .trending h2 {
@@ -120,3 +127,87 @@ text-transform: uppercase;
   font-size: 42px;
   line-height: 64px;
   }
+
+.trending p {
+  color: #929292;
+}
+
+.sorting-type {
+  list-style: none;
+}
+
+.sorting-type a {
+  color: #000000;
+}
+
+.sorting-type a:hover,
+.sorting-type a:focus {
+  color: #d3d3d3;
+}
+
+.trending-list {
+  list-style: none;
+}
+
+.trending-list .price {
+  color: #929292;
+}
+
+.trending-list .button-details {
+  color: #000000;
+}
+
+.trending-list .button-details:hover,
+.trending-list .button-details:active {
+  color: #ffffff;
+}
+
+.trending .button-goods {
+  color: #ffffff;
+}
+
+.bag-shoes-partition p {
+  color: #929292;
+}
+
+.button-info {
+  color: #000000;
+}
+
+.brands-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.insta-banner .pic-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-contacts address,
+.footer-contacts p  {
+  font-style: normal;
+  color: #010101;
+}
+
+.social-connection p {
+  color: #929292;
+}
+
+.social-connection h3 {
+  color: #000000;
+}
+
+.social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.payment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
