@@ -213,6 +213,10 @@ text-transform: uppercase;
   padding: 0;
 }
 
+.payment-system {
+  background-color: #1e1b1b;
+}
+
 .payment-list {
   list-style: none;
   margin: 0;
