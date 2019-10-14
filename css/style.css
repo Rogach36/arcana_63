@@ -291,6 +291,48 @@ text-transform: uppercase;
   padding: 0;
 }
 
+.description-goods {
+  font-size: 14px;
+  line-height: 64px;
+}
+
+.current-price {
+  font-size: 14px;
+  line-height: 64px;
+  color: #929292;
+}
+
+.price-old {
+  line-height: 64px;
+  text-decoration: line-through;
+  color: #929292;
+}
+
+.pagination-description {
+  line-height: 36px;
+  color: #000000;
+}
+
+.pagination-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination-item a {
+  line-height: 26px;
+  color: #000000;
+}
+
+.pagination-item a:not([href]) {
+  color: #ffffff;
+}
+
+.order-1,
+.order-2 {
+  line-height: 26px;
+  color: #000000;
+}
 /* --------------------------стили каталога окончание----------------------- */
 
 .footer-contacts address,
