@@ -160,6 +160,7 @@ text-transform: uppercase;
   width: 1110px;
   order: 4;
   border-top: solid 1px #d4d4d4;
+  margin-bottom: 185px;
   }
 
 .site-navigation li {
@@ -200,7 +201,7 @@ margin-right: auto;
 
 .site-navigation a {
   color: #161918;
-}
+  }
 
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -214,14 +215,33 @@ margin-right: auto;
 .feature-slide .title-slide {
   font-size: 56px;
   line-height: 64px
+  margin-bottom: 15px;
 }
 
 .feature-slide .description-slide {
   width: 365px;
-  padding-right: 17  px;
+  padding-right: 17px;
+  margin-bottom: 44px;
+}
+
+.feature-slide {
+  margin-bottom: 280px;
+}
+
+.inform-button {
+  width: 195px;
+  padding: 20px 46px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.inform-button:hover {
+  color: #3f3f3f;
 }
 
 .slides-swithes-1 {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
