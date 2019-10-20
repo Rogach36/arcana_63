@@ -26,6 +26,15 @@ img {
   height: auto;
 }
 
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -46,6 +55,7 @@ img {
   background-color: #bdbdbd;
   color: #161918;
 }
+
 /*--------------------------------------------*/
 /* .container-center {
    width: 1890px;
@@ -122,20 +132,18 @@ margin-right: auto;
   margin-right: 29px;
 } */
 /*--------------------------------------------------------------------------*/
-
-
 .container-center {
- width: 1110px;
+  width: 1110px;
   margin: 0 auto;
 }
 
 .main-navigation {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-font-size: 11px;
-line-height: 64px;
-text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 11px;
+  line-height: 64px;
+  text-transform: uppercase;
 }
 
 .main-header-logo {
@@ -161,18 +169,19 @@ text-transform: uppercase;
   order: 4;
   border-top: solid 1px #d4d4d4;
   margin-bottom: 185px;
-  }
+}
 
 .site-navigation li {
-width: 100px;
-margin-right: 36px;
+  width: 100px;
+  margin-right: 36px;
 }
 
 .site-navigation li:first-child {
   margin-left: auto;
 }
+
 .site-navigation li:last-child {
-margin-right: auto;
+  margin-right: auto;
 }
 
 .search {
@@ -198,10 +207,9 @@ margin-right: auto;
   margin-right: 29px;
 }
 
-
 .site-navigation a {
   color: #161918;
-  }
+}
 
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -214,8 +222,7 @@ margin-right: auto;
 
 .feature-slide .title-slide {
   font-size: 56px;
-  line-height: 64px
-  margin-bottom: 15px;
+  line-height: 64px margin-bottom: 15px;
 }
 
 .feature-slide .description-slide {
@@ -243,6 +250,20 @@ margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-btn {
+  width: 10px;
+  height: 10px;
+  margin-left: 7px;
+  background-color: #ffffff;
+}
+
+.slide-btn-active {
+  margin-left: 0;
+  background-color: #000000;
 }
 
 .service-list {
@@ -275,14 +296,13 @@ margin-right: auto;
 .goods-list-short a:hover,
 .goods-list-short a:focus {
   color: #ffffff;
-
 }
 
 .trending h2 {
   text-align: center;
   font-size: 42px;
   line-height: 64px;
-  }
+}
 
 .trending p {
   color: #929292;
@@ -359,7 +379,7 @@ margin-right: auto;
   line-height: 36px;
   font-weight: 500;
   text-transform: uppercase;
-  }
+}
 
 .subcategory-item {
   font-size: 12px;
@@ -370,7 +390,7 @@ margin-right: auto;
 .subcategory-item-current {
   font-weight: 500;
   color: #000000;
-  }
+}
 
 .filter-name {
   font-size: 14px;
@@ -378,7 +398,6 @@ margin-right: auto;
   font-weight: 500;
   text-transform: uppercase;
   color: #000000;
-
 }
 
 .filters fieldset {
@@ -421,7 +440,7 @@ margin-right: auto;
 
 .filter-sort .type-sorting {
   line-height: 35px;
-  }
+}
 
 .text-highlighting {
   color: #929292;
@@ -489,10 +508,10 @@ margin-right: auto;
   line-height: 26px;
   color: #000000;
 }
-/* --------------------------стили каталога окончание----------------------- */
 
+/* --------------------------стили каталога окончание----------------------- */
 .footer-contacts address,
-.footer-contacts p  {
+.footer-contacts p {
   font-style: normal;
   color: #010101;
 }
