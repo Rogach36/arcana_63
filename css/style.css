@@ -232,6 +232,7 @@ margin-right: auto;
 }
 
 .feature-slide {
+  position: relative;
   margin-bottom: 280px;
 }
 
@@ -266,6 +267,19 @@ margin-right: auto;
   background-color: #000000;
 }
 
+.left-control,
+.right-control {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.left-control {
+  top: 420px;
+  left: 245px;
+}
 .service-wrapper {
   width: 1260px;
   margin: 0 auto;
