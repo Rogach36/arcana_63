@@ -266,12 +266,30 @@ margin-right: auto;
   background-color: #000000;
 }
 
+.service-wrapper {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.services {
+  margin-top: 43px;
+}
+
 .service-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
 .service-item {
   text-align: center;
+  width: 330px;
+  padding: 0 5px;
+  margin-right: 115px;
+}
+
+.service-item:last-child {
+  margin-right: 0;
 }
 
 .service-item h3 {
