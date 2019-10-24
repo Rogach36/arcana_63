@@ -238,6 +238,7 @@ margin-right: auto;
 
 .inform-button {
   width: 195px;
+  padding-bottom: 305px;
   padding: 20px 46px;
   background-color: #000000;
   color: #ffffff;
@@ -253,6 +254,11 @@ margin-right: auto;
   list-style: none;
   margin: 0;
   padding: 0;
+  }
+
+ .slide-radio {
+  position: relative;
+  bottom: 25px;
 }
 
 .slide-btn {
@@ -265,6 +271,7 @@ margin-right: auto;
 .slide-btn-active {
   margin-left: 0;
   background-color: #000000;
+  cursor: auto;
 }
 
 .left-control,
