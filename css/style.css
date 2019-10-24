@@ -272,14 +272,48 @@ margin-right: auto;
   position: absolute;
   width: 53px;
   height: 53px;
+  border: solid 4px #ffffff;
   border-radius: 50%;
-  background-color: #000000;
+  background-color: transparent;
+  cursor: pointer;
 }
+
 
 .left-control {
   top: 420px;
   left: 245px;
+  }
+
+.right-control {
+  top: 420px;
+  right: 245px;
+  background-color: #292929;
 }
+
+.left-control::before,
+.right-control::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #c8c8c8;
+  transform: rotate(45deg);
+}
+
+.left-control::before {
+  left: 18px;
+  bottom: 16px;
+  border-top: transparent;
+  border-right: transparent;
+}
+
+.right-control::before {
+  right: 18px;
+  bottom: 16px;
+  border-bottom: transparent;
+  border-left: transparent;
+}
+
 .service-wrapper {
   width: 1260px;
   margin: 0 auto;
