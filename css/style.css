@@ -334,6 +334,7 @@ margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin-bottom: 43px;
 }
 
 .service-item {
@@ -347,6 +348,10 @@ margin-right: auto;
   margin-right: 0;
 }
 
+.service-item img {
+  margin-bottom: 3px;
+}
+
 .service-item h3 {
   color: #000000;
   line-height: 64px;
@@ -357,17 +362,48 @@ margin-right: auto;
   color: #929292;
 }
 
-.goods-list-short {
-  list-style: none;
+.goods-wrapper {
+  width: 1870px;
+  margin: 0 auto;
 }
 
-.goods-list-short a {
+.goods-list-short {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card {
+  position: relative;
+  width: 440px;
+}
+
+.button-show-wrapper {
+  position: absolute;
+  width: 440px;
+}
+
+.button-show {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-color: red;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-left: auto;
+  }
+
+.goods-list-short .button-show {
   color: #000000;
   font-size: 11px;
 }
 
-.goods-list-short a:hover,
-.goods-list-short a:focus {
+.goods-list-short .button-show:hover,
+.goods-list-short .button-show:focus {
   color: #ffffff;
 }
 
