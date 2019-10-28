@@ -51,6 +51,7 @@ button {
 .cover-slide {
   background-image: url("../img/slide.jpg");
   background-position: top center;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #bdbdbd;
   color: #161918;
@@ -222,7 +223,8 @@ margin-right: auto;
 
 .feature-slide .title-slide {
   font-size: 56px;
-  line-height: 64px margin-bottom: 15px;
+  line-height: 64px;
+  margin-bottom: 15px;
 }
 
 .feature-slide .description-slide {
@@ -232,8 +234,7 @@ margin-right: auto;
 }
 
 .feature-slide {
-  position: relative;
-  margin-bottom: 280px;
+  margin-bottom: 233px;
 }
 
 .inform-button {
@@ -287,17 +288,15 @@ margin-right: auto;
 
 
 .left-control {
-  /* top: 420px;
-  left: 245px; */
-  bottom: 550px;
-  left: -140px;
+
+  bottom: 425px;
+  right: 390px;
   }
 
 .right-control {
-  /* top: 420px;
-  right: 245px; */
-  bottom: 550px;
-  left: 1140px;
+
+  bottom: 425px;
+  left: 1385px;
   background-color: #292929;
 }
 /* Посмотреть в нердс как спозиционированы переключатели слайдов.
