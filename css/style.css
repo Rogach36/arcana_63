@@ -60,6 +60,7 @@ button {
 .container-center {
   width: 1110px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-navigation {
@@ -75,7 +76,7 @@ button {
   order: 2;
   width: 187px;
   height: 18px;
-  margin-right: 365px;
+  margin-right: 335px;
   margin-bottom: 35px;
 }
 
@@ -212,19 +213,15 @@ button {
 
 
 .left-control {
-
   bottom: 425px;
   right: 390px;
   }
 
 .right-control {
-
   bottom: 425px;
-  left: 1385px;
+  left: 1370px;
   background-color: #292929;
 }
-/* Посмотреть в нердс как спозиционированы переключатели слайдов.
-Поправить координаты положения этих двух переключетелей в сответствии с макетом */
 
 .left-control::before,
 .right-control::before {
@@ -341,27 +338,105 @@ button {
 }
 
 .trending h2 {
+  margin-bottom: 19px;
   text-align: center;
   font-size: 42px;
   line-height: 64px;
 }
 
+.line-under-trending {
+  width: 94px;
+  color: #cfcfcf;
+  margin-bottom: 28px;
+}
+
 .trending p {
+  width: 765px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-right: 25px;
   color: #929292;
+  text-align: center;
 }
 
 .sorting-type {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
-}
+  margin: 0;
+  padding: 0;
+  margin-bottom: 64px;
+  }
 
-.sorting-type a {
+.button-sort-item {
+  display: block;
+  width: 135px;
+  font-size: 12px;
+  line-height: 30px;
+  margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
   color: #000000;
+  background-color: #eeeeee;
 }
 
-.sorting-type a:hover,
-.sorting-type a:focus {
-  color: #d3d3d3;
+.sorting-type li:first-child {
+  margin-left: auto;
 }
+
+.sorting-type li:last-child {
+  margin-right: auto;
+}
+
+.button-sort-item::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: relative;
+   top: 33px;
+  right: 35px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #eeeeee;
+
+}
+
+.btn-sort-item-1::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: relative
+  top: 33px;
+  right: 40px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 6px solid #eeeeee;
+}
+
+.button-sort-item:hover,
+.button-sort-item:focus {
+  color: #d3d3d3;
+  background-color: #292929;
+}
+
+.btn-sort-item-1:hover::after,
+.btn-sort-item-1:hover::after {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 6px solid #292929;
+
+}
+
+.button-sort-item:hover::after,
+.button-sort-item:focus::after {
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 6px solid #292929;
+}
+
+
+/* absolute */
 
 .trending-list {
   list-style: none;
