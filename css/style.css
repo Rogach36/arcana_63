@@ -180,9 +180,9 @@ button {
   list-style: none;
   margin: 0;
   padding: 0;
-  }
+}
 
- .slide-radio {
+.slide-radio {
   position: relative;
   bottom: 25px;
 }
@@ -211,11 +211,10 @@ button {
   cursor: pointer;
 }
 
-
 .left-control {
   bottom: 425px;
   right: 390px;
-  }
+}
 
 .right-control {
   bottom: 425px;
@@ -320,7 +319,7 @@ button {
   text-align: center;
   bottom: 90px;
   left: 95px;
-  }
+}
 
 .button-show:hover {
   background-color: #000000;
@@ -366,7 +365,7 @@ button {
   margin: 0;
   padding: 0;
   margin-bottom: 64px;
-  }
+}
 
 .button-sort-item {
   display: block;
@@ -394,20 +393,18 @@ button {
   width: 0;
   height: 0;
   position: relative;
-   top: 33px;
+  top: 33px;
   right: 35px;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-top: 7px solid #eeeeee;
-
 }
 
 .btn-sort-item-1::after {
   content: "";
   width: 0;
   height: 0;
-  position: relative
-  top: 33px;
+  position: relative top: 33px;
   right: 40px;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
@@ -425,7 +422,6 @@ button {
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-top: 6px solid #292929;
-
 }
 
 .button-sort-item:hover::after,
@@ -435,11 +431,16 @@ button {
   border-top: 6px solid #292929;
 }
 
-
-/* absolute */
-
 .trending-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.trending-card {
+  position: relative;
 }
 
 .trending-list .price {
