@@ -290,6 +290,7 @@ button {
 .goods-wrapper {
   width: 1870px;
   margin: 0 auto;
+  /* padding: 0 15px; */
 }
 
 .goods-list-short {
@@ -349,7 +350,7 @@ button {
   margin-bottom: 28px;
 }
 
-.trending p {
+.trend-description {
   width: 765px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -441,6 +442,27 @@ button {
 
 .trending-card {
   position: relative;
+  width: 348px;
+  margin-right: 20px;
+}
+
+.trending-card:last-child {
+  margin-right: 0;
+}
+
+.marker-new,
+.marker-discont {
+  position: absolute;
+}
+
+.marker-new {
+  top: 15px;
+  right: 15px;
+}
+
+.marker-discont {
+  top: 15px;
+  left: 15px;
 }
 
 .trending-list .price {
@@ -578,27 +600,26 @@ button {
   /* color: #ffffff; */
 }
 
-.catalog-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .description-goods {
   font-size: 14px;
   line-height: 64px;
+  text-align: center;
 }
 
-.current-price {
-  font-size: 14px;
+.price-current,
+.price-old {
   line-height: 64px;
+  text-align: center;
   color: #929292;
+}
+
+.price-current {
+  font-size: 16px;
 }
 
 .price-old {
-  line-height: 64px;
+  font-size: 13px;
   text-decoration: line-through;
-  color: #929292;
 }
 
 .pagination-description {
