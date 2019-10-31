@@ -450,6 +450,10 @@ button {
   margin-right: 0;
 }
 
+.main-pic {
+  margin-bottom: 0;
+}
+
 .marker-new,
 .marker-discont {
   position: absolute;
@@ -476,6 +480,21 @@ button {
 .trending-list .button-details:hover,
 .trending-list .button-details:active {
   color: #ffffff;
+}
+
+.button-details {
+  display: inline-block;
+  position: relative;
+  width: 155px;
+  text-transform: uppercase;
+  left: 130px;
+  margin: 0;
+  background-color: green;
+}
+
+.button-details-active {
+  bottom: 90px;
+  left: 10px;
 }
 
 .trending .button-goods {
@@ -604,6 +623,7 @@ button {
   font-size: 14px;
   line-height: 64px;
   text-align: center;
+  margin-bottom: -35px;
 }
 
 .price-current,
