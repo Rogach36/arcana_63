@@ -469,32 +469,51 @@ button {
   left: 15px;
 }
 
+.description-goods {
+  font-size: 14px;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: -35px;
+  color: #000000;
+}
+
+.description-goods-4 {
+  margin-top: -36px;
+  margin-bottom: 0px;
+}
+
 .trending-list .price {
   color: #929292;
 }
 
-.trending-list .button-details {
-  color: #000000;
-}
-
-.trending-list .button-details:hover,
-.trending-list .button-details:active {
-  color: #ffffff;
-}
-
-.button-details {
+.button-info {
   display: inline-block;
   position: relative;
   width: 155px;
   text-transform: uppercase;
+  text-align: center;
   left: 130px;
-  margin: 0;
-  background-color: green;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 11px;
+  background-color: #ffffff;
+  color: #000000;
 }
 
-.button-details-active {
-  bottom: 90px;
-  left: 10px;
+.button-details {
+  bottom: 70px;
+  left: 22px;
+}
+
+.button-view {
+  bottom: 70px;
+  left: 15px;
+}
+
+.trending-list .button-info:hover,
+.trending-list .button-info:active {
+  color: #ffffff;
+  background-color: #292929;
 }
 
 .trending .button-goods {
@@ -505,7 +524,7 @@ button {
   color: #929292;
 }
 
-.button-info {
+.button-more-info {
   color: #000000;
 }
 
@@ -619,25 +638,29 @@ button {
   /* color: #ffffff; */
 }
 
-.description-goods {
+.description-goods-catalog {
   font-size: 14px;
   line-height: 64px;
   text-align: center;
-  margin-bottom: -35px;
 }
 
 .price-current,
 .price-old {
   line-height: 64px;
+  position: relative;
   text-align: center;
   color: #929292;
 }
 
 .price-current {
   font-size: 16px;
+  right: 36px;
+  bottom: 15px;
 }
 
 .price-old {
+  bottom: 96px;
+  left: 40px;
   font-size: 13px;
   text-decoration: line-through;
 }
