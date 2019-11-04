@@ -658,6 +658,12 @@ button {
   bottom: 15px;
 }
 
+.price-current-only {
+  position: static;
+  text-align: center;
+  margin-top: 10px;
+}
+
 .price-old {
   bottom: 96px;
   left: 40px;
