@@ -162,10 +162,15 @@ button {
   margin-bottom: 233px;
 }
 
+.button {
+ display: block;
+ text-transform: uppercase;
+ text-align: center;
+}
+
 .inform-button {
   width: 195px;
-  padding-bottom: 305px;
-  padding: 20px 46px;
+  padding: 20px;
   background-color: #000000;
   color: #ffffff;
 }
@@ -310,14 +315,11 @@ button {
 }
 
 .button-show {
-  display: block;
   position: relative;
   width: 250px;
   padding-top: 23px;
   padding-bottom: 23px;
   background-color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
   bottom: 90px;
   left: 95px;
 }
@@ -369,14 +371,13 @@ button {
 }
 
 .button-sort-item {
-  display: block;
   width: 135px;
   font-size: 12px;
   line-height: 30px;
+  text-transform: none;
   margin-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
-  text-align: center;
   color: #000000;
   background-color: #eeeeee;
 }
@@ -438,7 +439,7 @@ button {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+  }
 
 .trending-card {
   position: relative;
@@ -490,8 +491,6 @@ button {
   display: inline-block;
   position: relative;
   width: 155px;
-  text-transform: uppercase;
-  text-align: center;
   left: 130px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -517,8 +516,13 @@ button {
 }
 
 .trending .button-goods {
+  width: 230px;
+  padding-top: 23px;
+  padding-bottom: 23px;
   color: #ffffff;
-}
+  background-color: #000000;
+  margin: 0 auto;
+  }
 
 .bag-shoes-partition p {
   color: #929292;
