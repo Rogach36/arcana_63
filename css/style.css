@@ -563,8 +563,8 @@ button {
   color: #000000;
   border: 1px solid #000000;
   margin: 0 auto;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 .bag-shoes-line {
@@ -574,9 +574,20 @@ button {
 }
 
 .brands-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.brands-list li {
+  width: 176px;
+  margin-right: 132px;
+}
+
+.brands-list li:last-child {
+  margin-right: 0;
 }
 
 .insta-banner .pic-list {
