@@ -536,6 +536,7 @@ button {
 /*вместо задания центровки секции presentation-goods попробовать
 добавить класс центровщик, изначально не задал его, т.к. фото с товаром (слева)
 вплотную примыкает к краю макета, а для центровки нужно расстояние.. хотя бы 1px*/
+
 .bag-shoes-partition {
   display: flex;
   position: relative;
@@ -593,9 +594,28 @@ button {
 }
 
 .insta-banner .pic-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin: 0 auto;
+  margin-bottom: -5px;
+}
+
+.insta-banner {
+  position: relative;
+}
+
+.insta-title {
+  position: absolute;
+  font-size: 42px;
+  line-height: 20px;
+  font-weight: inherit;
+  color: #ffffff;
+   top: 35%;
+  left: 45%;
 }
 
 /* --------------------------стили каталога--------------------------- */
@@ -796,6 +816,11 @@ button {
 }
 
 /* --------------------------стили каталога окончание----------------------- */
+.map {
+  background-color: #929292;
+  background-image: url(../img/map/map.jpg);
+}
+
 .footer-contacts address,
 .footer-contacts p {
   font-style: normal;
