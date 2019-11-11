@@ -816,15 +816,36 @@ button {
 }
 
 /* --------------------------стили каталога окончание----------------------- */
+.footer-location {
+ position: relative;
+ background-color: #929292;
+ background-image: url(../img/map/map.jpg);
+ background-position: 50% 50%;
+}
+
 .map {
   background-color: #929292;
   background-image: url(../img/map/map.jpg);
+  /* background-position: 50% 50%; */
 }
 
-.footer-contacts address,
-.footer-contacts p {
+.footer-contacts {
+  /* position: absolute; */
+  padding-top: 30px;
+  padding-bottom: 24px;
+  padding-left: 40px;
+  padding-right: 68px;
+  width: 337px;
+  line-height: 30px;
+  color: #000000;
+  background-color: green;
+  /* top: 20%;
+  left: 25%; */
+  }
+
+.contact-address {
   font-style: normal;
-  color: #010101;
+  line-height: 20px;
 }
 
 .social-connection p {
