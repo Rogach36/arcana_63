@@ -899,16 +899,31 @@ iframe {
   background-color: #e9e9e9;
 }
 
-.field-email {
-  width: 300px;
+.social-button:hover,
+.social-button:active {
+  background-color: #d6d6d6;
+}
+
+.your-email {
   font-size: 11px;
   line-height: 20px;
   font-weight: 500;
-  padding-top:
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.field-email {
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 19px;
 }
 
 .field-email::placeholder {
-  color: red;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #929292;
 }
 
 .our-products {
@@ -932,8 +947,22 @@ iframe {
   background-color: #1e1b1b;
 }
 
-.payment-list {
+.pay-here {
+  display: block;
+  width: 174px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+
+  .payment-cover {
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-left: 58%;
+    /* padding: 0 15px; */
+  }
+
+/* .payment-list {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
