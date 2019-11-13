@@ -619,6 +619,11 @@ button {
 }
 
 /* --------------------------стили каталога--------------------------- */
+.catalog-cover-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .wear-category,
 .wear-subcategory {
   list-style: none;
