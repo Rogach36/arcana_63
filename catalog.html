@@ -13,7 +13,7 @@
     <div class="container-center">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html"><img src="img/header/logo-top.svg" width="187" height="18" alt="Arkana logo"></a>
-        <ul class="site-navigation">
+        <ul class="site-navigation site-navigation-cat">
           <li class="site-navigation-current"><a href="catalog.html">Dresses</a></li>
           <li><a href="blouses-page.html">Blouses</a></li>
           <li><a href="teestops-page.html">Tees & Tops</a></li>
@@ -34,197 +34,193 @@
     </div>
   </header>
   <main class="catalog-content container-center">
-  <div class="catalog-cover-columns">
-    <h1 class="catalog-page-title visually-hidden">Arkana catalog clothing store</h1>
-<section class="dress-filters">
-  <h2 class="visually-hidden">Group of filters</h2>
-    <section class="catalog-navigation">
-      <h3 class="visually-hidden category-filter">Choose type of wear</h3>
-      <ul class="wear-category">
-        <li class="category-item">
-          <a href="#">Top</a>
-          <img src="" alt="arrow down">
-        </li>
-        <!-- Стрелки вверх и вних в данном случае можно сделать на css как квадрат,
-        повернутный на определенный угол с двумя прозрачными границами -->
-        <li class="category-item">
-          <a href="#">T-Shirts & Blouses</a>
-          <img src="" alt="arrow up">
-        </li>
-        <ul class="wear-subcategory">
-          <li class="subcategory-item"><a href="#">Blouses</a></li>
-          <li class="subcategory-item-current"><a href="#">Shirts</a></li>
-          <li class="subcategory-item"><a href="#">T-Shirts</a></li>
-        </ul>
-        <li class="category-item"><a href="#">T-Sherts</a></li>
-        <li class="category-item"><a href="#">Outwear</a></li>
-      </ul>
-    </section>
-    <section class="filters">
-      <h3 class="filter-name">Filter by</h3>
-      <form class="filter-form" action="index.html" method="get">
-        <fieldset>
-          <legend class="filter-title">Categories</legend>
-          <ul class="category-list">
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="dresses" id="gown">
-              <label class="label-radio" for="gown">Dresses</label>
+    <div class="catalog-cover-columns">
+      <h1 class="catalog-page-title visually-hidden">Arkana catalog clothing store</h1>
+      <section class="dress-filters">
+        <h2 class="visually-hidden">Group of filters</h2>
+        <section class="catalog-navigation">
+          <h3 class="visually-hidden category-filter">Choose type of wear</h3>
+          <ul class="wear-category">
+            <li class="category-item">
+              <a class="name-category-1" href="#">Top</a>
             </li>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="blouses" id="blouse">
-              <label class="label-radio" for="blouse">Blouses</label>
+            <li class="category-item">
+              <a class="name-category-2" href="#">T-Shirts & Blouses</a>
             </li>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="outwear" id="overdress">
-              <label class="label-radio" for="overdress">Outwear</label>
-            </li>
+            <ul class="wear-subcategory">
+              <li class="subcategory-item"><a href="#">Blouses</a></li>
+              <li class="subcategory-item-current"><a href="#">Shirts</a></li>
+              <li class="subcategory-item"><a href="#">T-Shirts</a></li>
+            </ul>
+            <li class="category-item"><a href="#">T-Sherts</a></li>
+            <li class="category-item"><a href="#">Outwear</a></li>
           </ul>
-        </fieldset>
-        <fieldset>
-          <legend class="filter-title">Color</legend>
-          <ul class="color-pane-list">
-            <li>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-1" value="beige" id="color-beige">
-              <label for="color-beige">Beige (1)</label>
-            </li>
-            <li>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-2" value="black" id="color-black">
-              <label for="color-black">Black (2)</label>
-            </li>
-            <li>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-3" value="yellow" id="color-yellow">
-              <label for="color-yellow">Yellow (4)</label>
-            </li>
-            <li>
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-4" value="white" id="color-white">
-              <label for="color-white">White (2)</label>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset>
-          <legend class="filter-title">Compositions</legend>
-          <ul class="material-list">
-            <li>
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-1" value="cotton" id="cotton-fabric">
-              <label for="">Cotton (3)</label>
-            </li>
-            <li>
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-2" value="polyester" id="polyester-fabric">
-              <label for="">Polyester (2)</label>
-            </li>
-            <li>
-              <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-3" value="viscose" id="viscose-fabric">
-              <label for="">Viscose (2)</label>
-            </li>
-          </ul>
-        </fieldset>
-      </form>
-      <button class="button filter-button" type="submit">Clean All</button>
-    </section>
-</section>
-    <section class="catalog">
-      <h2 class="dresses-catalog">Dresses</h2>
-      <p class="description-page">
-        Find you favorites dresses from our wide choice of evening, casual or summer dresses! We offer dresses for every day, every style and every occasion.
-      </p>
-      <section class="filter-sort">
-        <h2 class="visually-hidden">Sorting</h2>
-        <div class="sorting-dresses">
-          <p class="result-description">There are 5 products</p>
-          <p class="type-sorting"><span class="text-highlighting">Sort by:</span> Prise, high to low</p>
-          <img src="" alt="arrow-sort">
-          <p class="active-filter">Active filters</p>
-          <p class="current-filter">Casual dresses</p>
-        </div>
-
+        </section>
+        <section class="filters">
+          <h3 class="filter-name">Filter by</h3>
+          <form class="filter-form" action="index.html" method="get">
+            <fieldset>
+              <legend class="filter-title">Categories</legend>
+              <ul class="category-list">
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="dresses" id="gown">
+                  <label class="label-radio" for="gown">Dresses</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="blouses" id="blouse">
+                  <label class="label-radio" for="blouse">Blouses</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="wear-type" value="outwear" id="overdress">
+                  <label class="label-radio" for="overdress">Outwear</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend class="filter-title">Color</legend>
+              <ul class="color-pane-list">
+                <li>
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-1" value="beige" id="color-beige">
+                  <label for="color-beige">Beige (1)</label>
+                </li>
+                <li>
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-2" value="black" id="color-black">
+                  <label for="color-black">Black (2)</label>
+                </li>
+                <li>
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-3" value="yellow" id="color-yellow">
+                  <label for="color-yellow">Yellow (4)</label>
+                </li>
+                <li>
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="color-4" value="white" id="color-white">
+                  <label for="color-white">White (2)</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend class="filter-title">Compositions</legend>
+              <ul class="material-list">
+                <li>
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-1" value="cotton" id="cotton-fabric">
+                  <label for="">Cotton (3)</label>
+                </li>
+                <li>
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-2" value="polyester" id="polyester-fabric">
+                  <label for="">Polyester (2)</label>
+                </li>
+                <li>
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="material-3" value="viscose" id="viscose-fabric">
+                  <label for="">Viscose (2)</label>
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+          <button class="button filter-button" type="submit">Clean All</button>
+        </section>
       </section>
-      <ul class="catalog-list">
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(1).jpg" alt="some model">
-          <img class="new-sale" src="img/catalog/discont-cat.jpg" alt="sales">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-          <p class="price-old">$ 299.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(2).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(3).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(4).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-          <p class="price-old">$ 299.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(5).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(6).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(1).jpg" alt="some model">
-          <img src="img/catalog/discont-cat.jpg" alt="salesimg/catalog/discont-cat.jpg" class="new-sale">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="price-new">$ 199.00</p>
-          <p class="price-old">$ 299.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(2).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(3).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(4).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-          <p class="price-old">$ 299.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(5).jpg" alt="some model">
-          <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-        <li>
-          <img class="main-pic" src="img/catalog/catalog-dresses(6).jpg" alt="some model">
-          <p class="">Excepteur sint occaecat cupidatat</p>
-          <p class="current-price">$ 199.00</p>
-        </li>
-      </ul>
-      <div class="pagination">
-        <p class="pagination-description">Showing 1-7 of 7 item(s)</p>
-        <ul class="pagination-list">
-          <li class="left-dir">
-            <p class="order-1">Previous</p>
-            <img src="" alt="left-arrow">
+      <section class="catalog">
+        <h2 class="dresses-catalog">Dresses</h2>
+        <p class="description-page">
+          Find you favorites dresses from our wide choice of evening, casual or summer dresses! We offer dresses for every day, every style and every occasion.
+        </p>
+        <section class="filter-sort">
+          <h2 class="visually-hidden">Sorting</h2>
+          <div class="sorting-dresses">
+            <p class="result-description">There are 5 products</p>
+            <p class="type-sorting"><span class="text-highlighting">Sort by:</span> Prise, high to low</p>
+            <img src="" alt="arrow-sort">
+            <p class="active-filter">Active filters</p>
+            <p class="current-filter">Casual dresses</p>
+          </div>
+
+        </section>
+        <ul class="catalog-list">
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(1).jpg" alt="some model">
+            <img class="new-sale" src="img/catalog/discont-cat.jpg" alt="sales">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+            <p class="price-old">$ 299.00</p>
           </li>
-          <li class="pagination-item"><a href="#">1</a></li>
-          <li class="pagination-item pagination-item-current"><a>2</a></li>
-          <li class="pagination-item"><a href="#">3</a></li>
-          <li class="pagination-item"><a href="#">4</a></li>
-          <li class="pagination-item"><a href="#">5</a></li>
-          <li class="right-dir">
-            <p class="order-2">Next</p>
-            <img src="" alt="right-arrow">
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(2).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(3).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(4).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+            <p class="price-old">$ 299.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(5).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(6).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(1).jpg" alt="some model">
+            <img src="img/catalog/discont-cat.jpg" alt="salesimg/catalog/discont-cat.jpg" class="new-sale">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="price-new">$ 199.00</p>
+            <p class="price-old">$ 299.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(2).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(3).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(4).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+            <p class="price-old">$ 299.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(5).jpg" alt="some model">
+            <p class="description-goods-catalog">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
+          </li>
+          <li>
+            <img class="main-pic" src="img/catalog/catalog-dresses(6).jpg" alt="some model">
+            <p class="">Excepteur sint occaecat cupidatat</p>
+            <p class="current-price">$ 199.00</p>
           </li>
         </ul>
-      </div>
-    </section>
+        <div class="pagination">
+          <p class="pagination-description">Showing 1-7 of 7 item(s)</p>
+          <ul class="pagination-list">
+            <li class="left-dir">
+              <p class="order-1">Previous</p>
+              <img src="" alt="left-arrow">
+            </li>
+            <li class="pagination-item"><a href="#">1</a></li>
+            <li class="pagination-item pagination-item-current"><a>2</a></li>
+            <li class="pagination-item"><a href="#">3</a></li>
+            <li class="pagination-item"><a href="#">4</a></li>
+            <li class="pagination-item"><a href="#">5</a></li>
+            <li class="right-dir">
+              <p class="order-2">Next</p>
+              <img src="" alt="right-arrow">
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   </main>
   <footer class="main-footer">
@@ -237,7 +233,7 @@
           <a class="button social-button" href="#"><span class="visually-hidden">facebook</span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 512 512">
               <path fill="#929292"
                 d="M304,383c0,40.2-0.1,80.3,0.1,120.5c0,4.4-1.2,5.6-5.6,5.5c-34.2-0.2-68.3-0.2-102.5,0   c-4.7,0-6.2-1.1-6.2-6c0.2-79.7,0.1-159.3,0.1-239c0-8,0.9-7-7.3-7.1c-14.5,0-29-0.1-43.5,0.1c-3.5,0-4.5-1.1-4.5-4.6   c0.1-25.3,0.1-50.7,0-76c0-3.5,1-4.6,4.5-4.5c15.2,0.2,30.3-0.1,45.5,0.2c4.1,0.1,5.4-1,5.4-5.3c-0.2-21.3,0-42.7-0.1-64   c-0.1-17.7,2.6-34.8,11.5-50.4c9.6-17,24-28.7,41.8-36.3c15-6.4,30.8-9.4,47-10.3c32.1-1.8,64.3-0.3,96.4-0.9   c3.6-0.1,4.5,1.2,4.5,4.6c-0.1,26.3-0.1,52.7,0,79c0,4-1.5,4.6-5,4.6c-18.5-0.1-37-0.1-55.5-0.1c-15.4,0-26.5,11.1-26.5,26.3   c0,15.7,0.2,31.3-0.1,47c-0.1,4.5,1.4,5.6,5.7,5.6c25.3-0.2,50.7,0,76-0.2c4.2,0,5.6,1.2,5.1,5.4c-1.5,12.9-2.8,25.8-4.2,38.7   c-1.3,12.4-3.5,24.7-5.5,37c-0.6,3.5-1.7,4.3-4.9,4.3c-21.7-0.1-43.3-0.1-65,0c-8.5,0-7.3-1.1-7.3,7.5C304,304,304,343.5,304,383z" />
-              </svg></a>
+            </svg></a>
         </li>
         <li>
           <a class="button social-button" href="#"><span class="visually-hidden">instagram</span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 64 64">

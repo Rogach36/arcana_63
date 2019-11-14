@@ -619,9 +619,17 @@ button {
 }
 
 /* --------------------------стили каталога--------------------------- */
+.site-navigation-cat {
+  margin-bottom: 118px;
+}
+
 .catalog-cover-columns {
   display: flex;
   justify-content: space-between;
+}
+
+.dress-filters {
+  width: 280px;
 }
 
 .wear-category,
@@ -636,16 +644,39 @@ button {
 }
 
 .category-item {
+  position: relative;
   font-size: 14px;
   line-height: 36px;
   font-weight: 500;
   text-transform: uppercase;
+  }
+
+.name-category-1::after,
+.name-category-2::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #000000;
+  transform: rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  left: 210px;
+  top: 13px;
+}
+
+.name-category-2::after {
+  transform: rotate(-135deg);
 }
 
 .subcategory-item {
   font-size: 12px;
   line-height: 30px;
   color: inherit;
+}
+
+.subcategory-item a {
+  color: #929292
 }
 
 .subcategory-item-current {
@@ -683,6 +714,17 @@ button {
   padding: 0;
 }
 
+.label-radio,
+.label-checkbox {
+  position: relative;
+  
+}
+
+.label-radio::before {
+  content: "";
+  position: absolute;
+}
+
 .dresses-catalog {
   font-size: 32px;
   line-height: 36px;
@@ -713,6 +755,10 @@ button {
   color: #000000;
 }
 
+.catalog {
+  width: 810px;
+}
+
 .current-filter {
   font-size: 9px;
   line-height: 36px;
@@ -726,6 +772,9 @@ button {
   line-height: 64px;
   text-align: center;
 }
+
+
+/* --------------------------стили каталога окончание----------------------- */
 
 .price-current,
 .price-old {
@@ -821,7 +870,6 @@ button {
   color: #000000;
 }
 
-/* --------------------------стили каталога окончание----------------------- */
 .footer-location {
   position: relative;
   padding-top: 102px;
@@ -961,13 +1009,5 @@ iframe {
 
   .payment-cover {
     width: 100%;
-    /* margin: 0 auto; */
     margin-left: 58%;
-    /* padding: 0 15px; */
   }
-
-/* .payment-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-} */
