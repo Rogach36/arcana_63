@@ -693,7 +693,17 @@ button {
 }
 
 .filters fieldset {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 11px;
   border: none;
+}
+
+.filters legend {
+  /* margin-bottom: придется вручную подгонять при несовпадении с макетом
+  т.к. высоты строк большие и у legend и у следующих за ними текстовыми эл-ми */
+  font-size: 14px;
+  line-height: 36px;
 }
 
 .category-list {
@@ -714,10 +724,24 @@ button {
   padding: 0;
 }
 
+.category-list li,
+.color-pane-list li,
+.material-list li {
+  font-size: 12px;
+  padding-left: 28px;
+  }
+
+.filter-option label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+}
+
 .label-radio,
 .label-checkbox {
   position: relative;
-  
+
 }
 
 .label-radio::before {
@@ -728,6 +752,7 @@ button {
 .dresses-catalog {
   font-size: 32px;
   line-height: 36px;
+  font-weight: inherit;
   color: #000000;
 }
 
