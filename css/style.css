@@ -692,6 +692,10 @@ button {
   color: #000000;
 }
 
+.filter-form {
+  margin-bottom: 24px;
+}
+
 .filters fieldset {
   margin: 0;
   padding: 0;
@@ -738,16 +742,53 @@ button {
   user-select: none;
 }
 
-.label-radio,
-.label-checkbox {
-  position: relative;
-
-}
-
-.label-radio::before {
+.filter-input-checkbox + label::before {
   content: "";
   position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000000;
+  left: -25px;
+  top: 2px;
 }
+
+.filter-input-checkbox:checked + label::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  top: 4px;
+  left: -23px;
+}
+
+.filter-input-checkbox + .color-beige::before {
+  background-color: #f1e5d2;
+  border: none;
+}
+
+.filter-input-checkbox + .color-black::before {
+  background-color: #000000;
+  border: none;
+}
+
+.filter-input-checkbox + .color-yellow::before {
+  background-color: #ebad29;
+  border: none;
+}
+
+.filter-input-checkbox + .color-white::before {
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.filter-button {
+  width: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #000000;
+  text-align: center;
+  }
 
 .dresses-catalog {
   font-size: 32px;
