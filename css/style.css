@@ -762,24 +762,46 @@ button {
   left: -23px;
 }
 
-.filter-input-checkbox + .color-beige::before {
+.filter-input-colors + .color-panel::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000000;
+  left: -25px;
+  top: 2px;
+}
+
+.filter-input-colors + .color-beige::before {
   background-color: #f1e5d2;
   border: none;
 }
 
-.filter-input-checkbox + .color-black::before {
+.filter-input-colors + .color-black::before {
   background-color: #000000;
   border: none;
 }
 
-.filter-input-checkbox + .color-yellow::before {
+.filter-input-colors + .color-yellow::before {
   background-color: #ebad29;
   border: none;
 }
 
-.filter-input-checkbox + .color-white::before {
+.filter-input-colors + .color-white::before {
     background-color: #f6f6f6;
     border: none;
+}
+
+.filter-input-checkbox:not(:disabled) + label:hover::before,
+.filter-input-checkbox:not(:disabled) + label:hover::after,
+.filter-input-checkbox:not(:disabled):focus + label::before,
+.filter-input-checkbox:not(:disabled):focus + label::after {
+  opacity: 0.5;
+}
+
+.filter-input-colors + .color-panel:hover::before,
+.filter-input-colors:focus + .color-panel::before {
+  border: solid 1px #c9bfbf;
 }
 
 .filter-button {
