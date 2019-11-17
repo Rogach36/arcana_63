@@ -649,7 +649,7 @@ button {
   line-height: 36px;
   font-weight: 500;
   text-transform: uppercase;
-  }
+}
 
 .name-category-1::after,
 .name-category-2::after {
@@ -733,7 +733,7 @@ button {
 .material-list li {
   font-size: 12px;
   padding-left: 28px;
-  }
+}
 
 .filter-option label {
   position: relative;
@@ -742,7 +742,7 @@ button {
   user-select: none;
 }
 
-.filter-input-checkbox + label::before {
+.filter-input-checkbox+label::before {
   content: "";
   position: absolute;
   width: 14px;
@@ -752,7 +752,7 @@ button {
   top: 2px;
 }
 
-.filter-input-checkbox:checked + label::after {
+.filter-input-checkbox:checked+label::after {
   content: "";
   position: absolute;
   width: 10px;
@@ -762,7 +762,7 @@ button {
   left: -23px;
 }
 
-.filter-input-colors + .color-panel::before {
+.filter-input-colors+.color-panel::before {
   content: "";
   position: absolute;
   width: 14px;
@@ -772,35 +772,35 @@ button {
   top: 2px;
 }
 
-.filter-input-colors + .color-beige::before {
+.filter-input-colors+.color-beige::before {
   background-color: #f1e5d2;
   border: none;
 }
 
-.filter-input-colors + .color-black::before {
+.filter-input-colors+.color-black::before {
   background-color: #000000;
   border: none;
 }
 
-.filter-input-colors + .color-yellow::before {
+.filter-input-colors+.color-yellow::before {
   background-color: #ebad29;
   border: none;
 }
 
-.filter-input-colors + .color-white::before {
-    background-color: #f6f6f6;
-    border: none;
+.filter-input-colors+.color-white::before {
+  background-color: #f6f6f6;
+  border: none;
 }
 
-.filter-input-checkbox:not(:disabled) + label:hover::before,
-.filter-input-checkbox:not(:disabled) + label:hover::after,
-.filter-input-checkbox:not(:disabled):focus + label::before,
-.filter-input-checkbox:not(:disabled):focus + label::after {
+.filter-input-checkbox:not(:disabled)+label:hover::before,
+.filter-input-checkbox:not(:disabled)+label:hover::after,
+.filter-input-checkbox:not(:disabled):focus+label::before,
+.filter-input-checkbox:not(:disabled):focus+label::after {
   opacity: 0.5;
 }
 
-.filter-input-colors + .color-panel:hover::before,
-.filter-input-colors:focus + .color-panel::before {
+.filter-input-colors+.color-panel:hover::before,
+.filter-input-colors:focus+.color-panel::before {
   border: solid 1px #c9bfbf;
 }
 
@@ -810,9 +810,10 @@ button {
   padding-bottom: 15px;
   border: 1px solid #000000;
   text-align: center;
-  }
+}
 
 .dresses-catalog {
+margin-bottom: 19px;
   font-size: 32px;
   line-height: 36px;
   font-weight: inherit;
@@ -821,15 +822,27 @@ button {
 
 .description-page {
   color: #000000;
+  margin-bottom: 42px;
+}
+
+.sorting-wrapper {
+  display: flex;
+  width: 825px;
+  background-color: #f2f2f2;
+
 }
 
 .filter-sort .result-description {
+  width: 137px;
+  margin-left: 20px;
   font-weight: 400;
   line-height: 36px;
   color: #000000;
 }
 
 .filter-sort .type-sorting {
+  margin-left: auto;
+  margin-right: 40px;
   line-height: 35px;
 }
 
@@ -861,9 +874,7 @@ button {
   text-align: center;
 }
 
-
 /* --------------------------стили каталога окончание----------------------- */
-
 .price-current,
 .price-old {
   line-height: 64px;
@@ -1031,7 +1042,7 @@ iframe {
 }
 
 .social-button {
- display: flex;
+  display: flex;
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -1071,7 +1082,6 @@ iframe {
   width: 111px;
   margin-left: 90px;
   margin-top: -11px;
-
 }
 
 .information {
@@ -1093,9 +1103,9 @@ iframe {
   width: 174px;
   padding-top: 15px;
   padding-bottom: 15px;
-  }
+}
 
-  .payment-cover {
-    width: 100%;
-    margin-left: 58%;
-  }
+.payment-cover {
+  width: 100%;
+  margin-left: 58%;
+}
