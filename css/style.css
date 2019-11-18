@@ -829,7 +829,7 @@ margin-bottom: 19px;
   display: flex;
   width: 825px;
   background-color: #f2f2f2;
-
+  margin-bottom: 18px;
 }
 
 .filter-sort .result-description {
@@ -850,6 +850,25 @@ margin-bottom: 19px;
   color: #929292;
 }
 
+.type-sorting {
+  position: relative;
+}
+
+.type-sorting::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 175px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #000000;
+  transform: rotate(45deg);
+  border-left: transparent;
+  border-top: transparent;
+  cursor: pointer;
+}
+
+
 .active-filter {
   line-height: 36px;
   text-transform: uppercase;
@@ -861,11 +880,24 @@ margin-bottom: 19px;
 }
 
 .current-filter {
+  position: relative;
+  width: 121px;
   font-size: 9px;
   line-height: 36px;
   text-transform: uppercase;
-  color: red;
-  /* color: #ffffff; */
+  padding-left: 13px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.current-filter::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-image: url("../img/catalog/Shape4.svg");
+  top: 15px;
+  left: 105px;
 }
 
 .description-goods-catalog {
