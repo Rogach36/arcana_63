@@ -451,9 +451,13 @@ button {
   margin-right: 20px;
 }
 
-.trending-card:last-child {
+/* .trending-card:last-child {
   margin-right: 0;
-}
+} */
+
+/* .trending-card:nth-child(5n) {
+  margin-right: 0;
+} */
 
 .main-pic {
   margin-bottom: 0;
@@ -825,6 +829,10 @@ margin-bottom: 19px;
   margin-bottom: 42px;
 }
 
+.sorting-dresses {
+  margin-bottom: 25px;
+}
+
 .sorting-wrapper {
   display: flex;
   width: 825px;
@@ -878,10 +886,12 @@ margin-bottom: 19px;
 .catalog {
   width: 810px;
 }
-
+/* -----------------непосредственно отсюда начинается каталог------------------------------------ */
 .current-filter {
   position: relative;
   width: 121px;
+  bottom: 50px;
+  left: 110px;
   font-size: 9px;
   line-height: 36px;
   text-transform: uppercase;
@@ -893,17 +903,43 @@ margin-bottom: 19px;
 .current-filter::after {
   content: "";
   position: absolute;
+  top: 15px;
+  left: 105px;
   width: 6px;
   height: 6px;
   background-image: url("../img/catalog/Shape4.svg");
-  top: 15px;
-  left: 105px;
+  cursor: pointer;
 }
 
 .description-goods-catalog {
   font-size: 14px;
   line-height: 64px;
   text-align: center;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 827px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-list li {
+  position: relative;
+  width: 254px;
+  margin-right: 30px;
+}
+
+.catalog-list li:nth-child(3n) {
+  margin-right: 0
+}
+
+.sale {
+  position: absolute;
+  top: 13px;
+  left: 15px;
 }
 
 /* --------------------------стили каталога окончание----------------------- */
