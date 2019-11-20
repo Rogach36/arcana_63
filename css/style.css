@@ -1011,12 +1011,19 @@ margin-bottom: 19px;
   background-color: #b7cdd4;
 }
 
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .pagination-description {
   line-height: 36px;
   color: #000000;
 }
 
 .pagination-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
