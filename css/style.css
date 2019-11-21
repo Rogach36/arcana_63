@@ -1014,9 +1014,13 @@ margin-bottom: 19px;
 .pagination {
   display: flex;
   flex-wrap: wrap;
+  width: 825px;
+  background-color: #f2f2f2;
 }
 
 .pagination-description {
+  width: 155px;
+  margin-left: 21px;
   line-height: 36px;
   color: #000000;
 }
@@ -1029,9 +1033,19 @@ margin-bottom: 19px;
   padding: 0;
 }
 
+.pagination-item li {
+
+
+}
+
 .pagination-item a {
+  display: block;
+  min-width: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   line-height: 26px;
   color: #000000;
+  background-color: green;
 }
 
 .pagination-item a:not([href]) {
