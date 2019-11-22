@@ -1055,6 +1055,7 @@ button {
   transform: rotate(45deg);
   border-top: transparent;
   border-right: transparent;
+  cursor: pointer;
 }
 
 .pagination-right-dir {
@@ -1075,6 +1076,7 @@ button {
   transform: rotate(45deg);
   border-bottom: transparent;
   border-left: transparent;
+  cursor: pointer;
 }
 
 .pagination-item a {
