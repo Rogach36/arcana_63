@@ -454,11 +454,9 @@ button {
 /* .trending-card:last-child {
   margin-right: 0;
 } */
-
 /* .trending-card:nth-child(5n) {
   margin-right: 0;
 } */
-
 .main-pic {
   margin-bottom: 0;
 }
@@ -817,7 +815,7 @@ button {
 }
 
 .dresses-catalog {
-margin-bottom: 19px;
+  margin-bottom: 19px;
   font-size: 32px;
   line-height: 36px;
   font-weight: inherit;
@@ -876,7 +874,6 @@ margin-bottom: 19px;
   cursor: pointer;
 }
 
-
 .active-filter {
   line-height: 36px;
   text-transform: uppercase;
@@ -886,6 +883,7 @@ margin-bottom: 19px;
 .catalog {
   width: 810px;
 }
+
 /* -----------------непосредственно отсюда начинается каталог------------------------------------ */
 .current-filter {
   position: relative;
@@ -1031,11 +1029,52 @@ margin-bottom: 19px;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: 15px;
 }
 
-.pagination-item li {
+.pagination-item {
+  margin-right: 7px;
+}
 
+.pagination-left-dir {
+  position: relative;
+  margin-right: 19px;
+  background-color: transparent;
+}
 
+.pagination-left-dir::before {
+  content: "";
+  position: absolute;
+  right: 70px;
+  top: 15px;
+  width: 6px;
+  height: 6px;
+  border: solid 1px #272727;
+  transform: rotate(45deg);
+  border-top: transparent;
+  border-right: transparent;
+}
+
+.pagination-right-dir {
+ position: relative;
+  margin-right: 0;
+  margin-left: 19px;
+
+}
+
+.pagination-right-dir::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  top: 15px;
+  width: 6px;
+  height: 6px;
+  border: solid 1px #272727;
+  transform: rotate(45deg);
+  border-bottom: transparent;
+  border-left: transparent;
 }
 
 .pagination-item a {
@@ -1043,13 +1082,16 @@ margin-bottom: 19px;
   min-width: 30px;
   padding-top: 3px;
   padding-bottom: 3px;
+  text-align: center;
   line-height: 26px;
+  border: 1px solid transparent;
   color: #000000;
-  background-color: green;
+
 }
 
 .pagination-item a:not([href]) {
   color: #ffffff;
+  background-color: #000000;
 }
 
 .order-1,
