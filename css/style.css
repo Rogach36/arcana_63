@@ -882,6 +882,7 @@ button {
 
 .catalog {
   width: 810px;
+  margin-bottom: 159px;
 }
 
 /* -----------------непосредственно отсюда начинается каталог------------------------------------ */
@@ -1223,6 +1224,7 @@ iframe {
 }
 
 .your-account {
+width: 128px;
   margin-left: 112px;
   margin-top: -11px;
 }
