@@ -158,10 +158,6 @@ button {
   margin-bottom: 44px;
 }
 
-.feature-slide {
-  margin-bottom: 233px;
-}
-
 .button {
   display: block;
   text-transform: uppercase;
@@ -179,17 +175,14 @@ button {
   color: #3f3f3f;
 }
 
-.slides-swithes-1 {
+.slides-swithes {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.slide-radio {
   position: relative;
-  bottom: 25px;
+  top: 24px;
 }
 
 .slide-btn {
