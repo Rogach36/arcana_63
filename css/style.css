@@ -1060,10 +1060,9 @@ button {
 }
 
 .pagination-right-dir {
- position: relative;
+  position: relative;
   margin-right: 0;
   margin-left: 19px;
-
 }
 
 .pagination-right-dir::after {
@@ -1089,7 +1088,6 @@ button {
   line-height: 26px;
   border: 1px solid transparent;
   color: #000000;
-
 }
 
 .pagination-item a:not([href]) {
@@ -1190,7 +1188,15 @@ iframe {
   background-color: #d6d6d6;
 }
 
+.subscribe-us fieldset {
+  width: 347px;
+  border: solid 1px #dfdfdf;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 .your-email {
+  margin-left: -10px;
   font-size: 11px;
   line-height: 20px;
   font-weight: 500;
@@ -1199,10 +1205,12 @@ iframe {
 }
 
 .field-email {
-  width: 300px;
+  width: 252px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 19px;
+  outline: none;
+  border: 0;
 }
 
 .field-email::placeholder {
@@ -1210,7 +1218,7 @@ iframe {
   line-height: 20px;
   font-weight: 400;
   color: #929292;
-}
+  }
 
 .our-products {
   width: 111px;
@@ -1224,7 +1232,7 @@ iframe {
 }
 
 .your-account {
-width: 128px;
+  width: 128px;
   margin-left: 112px;
   margin-top: -11px;
 }
