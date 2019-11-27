@@ -51,7 +51,6 @@ button {
 .cover-slide {
   background-image: url("../img/slide.jpg");
   background-position: top center;
-  background-size: contain;
   background-repeat: no-repeat;
   background-color: #bdbdbd;
   color: #161918;
@@ -210,13 +209,13 @@ button {
 }
 
 .left-control {
-  bottom: 425px;
-  right: 390px;
+  bottom: 325px;
+  right: 190px;
 }
 
 .right-control {
-  bottom: 425px;
-  left: 1370px;
+  bottom: 325px;
+  left: 1170px;
   background-color: #292929;
 }
 
