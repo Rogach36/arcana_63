@@ -59,7 +59,7 @@ button {
 .container-center {
   width: 1140px;
   margin: 0 auto;
-  padding: 0 13px;
+  padding: 0 17px;
 }
 
 .main-navigation {
@@ -73,7 +73,7 @@ button {
   order: 2;
   width: 187px;
   height: 18px;
-  margin-right: 370px;
+  margin-right: 366px;
   margin-bottom: 28px;
   margin-top: 19px;
 }
@@ -92,24 +92,19 @@ button {
   width: 740px;
   order: 4;
   border-top: solid 1px #d4d4d4;
-  margin-bottom: 95px;
   font-size: 11px;
   line-height: 64px;
   margin: 0 auto;
+  margin-bottom: 123px;
 }
 
 .site-navigation li {
-  width: 100px;
-  margin-right: 36px;
+  margin-right: 78px;
 
-}
-
-.site-navigation li:first-child {
-  margin-left: auto;
 }
 
 .site-navigation li:last-child {
-  margin-right: auto;
+  margin-right: 0;
 }
 
 .search {
@@ -134,8 +129,8 @@ margin-top: 8px;
 }
 
 .cart .share-link {
-  margin-left: 22px;
-  margin-top: 10px;
+  margin-left: 26px;
+  margin-top: 12px;
 }
 
 .cart .cart-icon {
@@ -158,13 +153,13 @@ margin-top: 8px;
 .feature-slide .title-slide {
   font-size: 56px;
   line-height: 64px;
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 }
 
 .feature-slide .description-slide {
   width: 365px;
   padding-right: 17px;
-  margin-bottom: 44px;
+  margin-bottom: 45px;
 }
 
 .button {
@@ -175,7 +170,10 @@ margin-top: 8px;
 
 .inform-button {
   width: 195px;
-  padding: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin-bottom: 273px;
+  font-size: 11px;
   background-color: #000000;
   color: #ffffff;
 }
@@ -188,7 +186,7 @@ margin-top: 8px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: 24px;
+  top: 29px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -210,22 +208,22 @@ margin-top: 8px;
 .left-control,
 .right-control {
   position: relative;
-  width: 53px;
-  height: 53px;
-  border: solid 4px #ffffff;
+  width: 54px;
+  height: 54px;
+  border: solid 2px #ffffff;
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
 }
 
 .left-control {
-  bottom: 325px;
-  right: 190px;
+  bottom: 418px;
+  right: 392px;
 }
 
 .right-control {
-  bottom: 325px;
-  left: 1170px;
+  bottom: 418px;
+  left: 1382px;
   background-color: #292929;
 }
 
@@ -240,15 +238,15 @@ margin-top: 8px;
 }
 
 .left-control::before {
-  left: 18px;
-  bottom: 16px;
+  left: 21px;
+  bottom: 19px;
   border-top: transparent;
   border-right: transparent;
 }
 
 .right-control::before {
-  right: 18px;
-  bottom: 16px;
+  right: 21px;
+  bottom: 19px;
   border-bottom: transparent;
   border-left: transparent;
 }
