@@ -298,8 +298,12 @@ margin-top: 8px;
   color: #929292;
 }
 
+.example-goods {
+  margin-bottom: 1px;
+}
+
 .goods-wrapper {
-  width: 1870px;
+  width: 1856px;
   margin: 0 auto;
   /* padding: 0 15px; */
 }
@@ -313,7 +317,7 @@ margin-top: 8px;
 }
 
 .product-card {
-  margin-right: 35px;
+  margin-right: 32px;
 }
 
 .product-card:last-child {
@@ -326,7 +330,7 @@ margin-top: 8px;
   padding-top: 23px;
   padding-bottom: 23px;
   background-color: #ffffff;
-  bottom: 90px;
+  bottom: 88px;
   left: 95px;
 }
 
