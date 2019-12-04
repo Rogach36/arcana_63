@@ -350,13 +350,13 @@ margin-top: 8px;
 .trending-wrapper {
   width: 1870px;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
   padding: 0;
   padding-left: 7px;
 }
 
-.ternding {
-  margin-bottom: 83px;
+.trending {
+  margin-bottom: 79px;
 }
 
 .trending h2 {
@@ -545,7 +545,6 @@ margin-top: 8px;
 .trending .button-goods {
   width: 230px;
   margin: 0 auto;
-  margin-bottom: 83px;
   padding-top: 23px;
   padding-bottom: 23px;
   color: #ffffff;
@@ -553,21 +552,26 @@ margin-top: 8px;
 }
 
 .presentation-goods {
-  width: 1918px;
-  margin: 0 auto;
+  /* width: 1918px;
+  margin: 0 auto; */
+  display: flex;
 }
 
+.presentation-goods img {
+  /* margin-left: -4px; */
+  width: 958px;
+}
 /*вместо задания центровки секции presentation-goods попробовать
 добавить класс центровщик, изначально не задал его, т.к. фото с товаром (слева)
 вплотную примыкает к краю макета, а для центровки нужно расстояние.. хотя бы 1px*/
 .bag-shoes-partition {
   display: flex;
-  position: relative;
-  width: 962px;
+
+  width: 958px;
   flex-direction: column;
   text-align: center;
-  left: 958px;
-  bottom: 495px;
+  padding-top: 142px;
+
 }
 
 .bag-shoes-partition h2 {
@@ -581,11 +585,11 @@ margin-top: 8px;
   width: 480px;
   color: #929292;
   margin: 0 auto;
-  margin-bottom: 58px;
+  margin-bottom: 45px;
 }
 
 .button-more-info {
-  width: 195px;
+  width: 194px;
   color: #000000;
   border: 1px solid #000000;
   margin: 0 auto;
@@ -596,7 +600,8 @@ margin-top: 8px;
 .bag-shoes-line {
   width: 109px;
   color: #cfcfcf;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
+  margin-top: 3px;
 }
 
 .brands-list {
