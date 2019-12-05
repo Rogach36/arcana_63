@@ -552,9 +552,10 @@ margin-top: 8px;
 }
 
 .presentation-goods {
-  /* width: 1918px;
-  margin: 0 auto; */
+  width: 1918px;
+  margin: 0 auto;
   display: flex;
+  margin-bottom: 63px;
 }
 
 .presentation-goods img {
@@ -564,6 +565,8 @@ margin-top: 8px;
 /*вместо задания центровки секции presentation-goods попробовать
 добавить класс центровщик, изначально не задал его, т.к. фото с товаром (слева)
 вплотную примыкает к краю макета, а для центровки нужно расстояние.. хотя бы 1px*/
+
+
 .bag-shoes-partition {
   display: flex;
 
@@ -604,6 +607,12 @@ margin-top: 8px;
   margin-top: 3px;
 }
 
+.brands-wrapper {
+  width: 1710px;
+  margin: 0 auto;
+  /* padding: 0 75px; */
+  }
+
 .brands-list {
   display: flex;
   flex-wrap: wrap;
@@ -613,8 +622,8 @@ margin-top: 8px;
 }
 
 .brands-list li {
-  width: 176px;
-  margin-right: 132px;
+  width: 170px;
+  margin-right: 90px;
 }
 
 .brands-list li:last-child {
@@ -630,6 +639,36 @@ margin-top: 8px;
   padding: 0;
   margin: 0 auto;
   margin-bottom: -5px;
+}
+
+.pic-list-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo-sisley {
+margin-bottom: 56px;
+}
+
+.logo-wrangler {
+  margin-bottom: 51px;
+}
+
+.logo-fredperry {
+  margin-bottom: 68px;
+}
+
+.logo-levis {
+margin-bottom: 62px;
+}
+
+.logo-jackjones {
+margin-bottom: 72px;
+}
+
+.logo-lacoste {
+  margin-bottom: 66px;
 }
 
 .insta-banner {
