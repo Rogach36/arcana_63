@@ -552,7 +552,7 @@ margin-top: 8px;
 }
 
 .presentation-goods {
-  width: 1918px;
+  width: 1920px;
   margin: 0 auto;
   display: flex;
   margin-bottom: 63px;
@@ -569,10 +569,11 @@ margin-top: 8px;
 
 .bag-shoes-partition {
   display: flex;
-
-  width: 958px;
+  width: 962px;
   flex-direction: column;
-  text-align: center;
+  
+  /* text-align: center; */
+  align-items: center;
   padding-top: 142px;
 
 }
