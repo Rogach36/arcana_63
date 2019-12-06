@@ -644,32 +644,43 @@ margin-top: 8px;
 .pic-list-item {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
+}
+
+/* .logo {
+  margin-left: 110px;
 }
 
 .logo-sisley {
-margin-bottom: 56px;
+margin-bottom: 51px;
 }
 
 .logo-wrangler {
-  margin-bottom: 51px;
+  margin-bottom: 46px;
 }
 
 .logo-fredperry {
-  margin-bottom: 68px;
+  margin-bottom: 57px;
+  margin-left: 88px;
+  margin-top: 6px;
 }
 
 .logo-levis {
-margin-bottom: 62px;
+margin-bottom: 51px;
+margin-top: 6px;
 }
 
 .logo-jackjones {
-margin-bottom: 72px;
+margin-bottom: 59px;
+margin-left: 67px;
+margin-top: 8px;
 }
 
 .logo-lacoste {
-  margin-bottom: 66px;
-}
+  margin-bottom: 57px;
+  margin-left: 85px;
+  margin-top: 4px;
+} */
 
 .insta-banner {
   position: relative;
