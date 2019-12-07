@@ -56,10 +56,14 @@ button {
   color: #161918;
 }
 
+.main-header {
+  margin-bottom: 179px;
+}
+
 .container-center {
   width: 1140px;
   margin: 0 auto;
-  padding: 0 17px;
+  padding: 0 15px 0 16px;
 }
 
 .main-navigation {
@@ -73,7 +77,6 @@ button {
   order: 2;
   width: 187px;
   height: 18px;
-  margin-right: 366px;
   margin-bottom: 28px;
   margin-top: 19px;
 }
@@ -90,13 +93,14 @@ button {
 
 .site-navigation {
   width: 740px;
+  margin: 0 auto;
   order: 4;
   border-top: solid 1px #d4d4d4;
   font-size: 11px;
+  font-weight: 600;
   line-height: 64px;
-  margin: 0 auto;
-  margin-bottom: 123px;
-}
+
+  }
 
 .site-navigation li {
   margin-right: 78px;
@@ -109,27 +113,28 @@ button {
 
 .search {
   width: 95px;
-  margin-top: 16px;
-  margin-right: 366px;
+  margin-top: 20px;
+  margin-right: 364px;
 }
 
 .search .menu-sandwich {
-  margin-right: 27px;
+  margin-right: 25px;
 }
 
 .search .serching-loupe {
-  margin-top: 3px;
+  margin-top: 1px;
 }
 
 .cart {
 margin-top: 8px;
+margin-left: auto;
   order: 2;
   width: 92px;
   justify-content: space-between;
 }
 
 .cart .share-link {
-  margin-left: 26px;
+  margin-left: 22px;
   margin-top: 12px;
 }
 
@@ -559,7 +564,7 @@ margin-top: 8px;
 }
 
 .presentation-goods img {
-  /* margin-left: -4px; */
+  margin-left: -6px;
   width: 958px;
 }
 /*вместо задания центровки секции presentation-goods попробовать
@@ -571,7 +576,6 @@ margin-top: 8px;
   display: flex;
   width: 962px;
   flex-direction: column;
-  
   /* text-align: center; */
   align-items: center;
   padding-top: 142px;
