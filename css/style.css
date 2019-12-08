@@ -600,14 +600,15 @@ margin-left: auto;
   line-height: 64px;
   font-weight: inherit;
   margin-bottom: 20px;
-
 }
 
 .bag-shoes-partition p {
   width: 500px;
-  color: #929292;
+
   margin: 0 auto;
   margin-bottom: 45px;
+  padding-right: 4px;
+  color: #929292;
 }
 
 .button-more-info {
