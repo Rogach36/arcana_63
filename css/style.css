@@ -636,11 +636,9 @@ margin-left: auto;
   margin-top: 3px;
 }
 
-/* .brands-wrapper {
-  width: 1910px;
-  margin: 0 auto;
-   padding: 0 75px;
-  } */
+.brands {
+  margin-bottom: 44px;
+}
 
 .brands-list {
   display: flex;
@@ -651,13 +649,11 @@ margin-left: auto;
   margin: 0 auto;
   padding: 0;
   padding-left: 5px;
-
 }
 
 .brands-list li {
   width: 170px;
-  /* margin-right: 90px; */
-}
+  }
 
 .brands-1 {
   margin-right: 147px;
@@ -696,13 +692,13 @@ margin-left: auto;
   list-style: none;
   margin: 0;
   padding: 0;
-  margin: 0 auto;
+  margin-left: -8px;
   margin-bottom: -5px;
 }
 
 .pic-list-item {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   /* text-align: center; */
 }
 
@@ -743,6 +739,9 @@ margin-top: 8px;
 
 .insta-banner {
   position: relative;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .insta-title {
@@ -751,8 +750,8 @@ margin-top: 8px;
   line-height: 20px;
   font-weight: inherit;
   color: #ffffff;
-  top: 35%;
-  left: 45%;
+  top: 32%;
+  left: 43%;
 }
 
 /* --------------------------стили каталога--------------------------- */
@@ -1239,7 +1238,7 @@ margin-top: 8px;
 .footer-location {
   position: relative;
   padding-top: 102px;
-  padding-bottom: 102px;
+  padding-bottom: 60px;
   margin-bottom: 69px;
   background-color: #929292;
   background-image: url(../img/map/map.jpg);
@@ -1258,11 +1257,12 @@ iframe {
 
 .footer-contacts {
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 24px;
+  margin-bottom: 43px;
+  padding-top: 28px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 68px;
-  width: 337px;
+  width: 335px;
   line-height: 30px;
   color: #000000;
   background-color: #ffffff;
@@ -1273,6 +1273,19 @@ iframe {
 .contact-address {
   font-style: normal;
   line-height: 20px;
+}
+
+.contact-phone {
+margin-top: 9px;
+}
+
+.contact-mail {
+  margin-top: -11px;
+}
+
+.timetable {
+  margin-top: -11px;
+  margin-left: -1px;
 }
 
 .footer-wrapper {
