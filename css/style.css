@@ -1295,13 +1295,13 @@ margin-top: 9px;
 
 .main-footer-logo {
   display: block;
-  margin-bottom: 43px;
+  margin-bottom: 37px;
 }
 
 .description-arkana {
   width: 250px;
   color: #929292;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .social-list {
@@ -1309,6 +1309,7 @@ margin-top: 9px;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
+  margin-left: -3px;
   padding: 0;
   margin-bottom: 39px;
 }
