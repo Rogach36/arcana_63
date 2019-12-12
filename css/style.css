@@ -969,6 +969,11 @@ margin-top: 8px;
   text-align: center;
 }
 
+.catalog {
+  width: 829px;
+  margin-bottom: 159px;
+}
+
 .dresses-catalog {
   margin-bottom: 19px;
   font-size: 32px;
@@ -977,9 +982,11 @@ margin-top: 8px;
   color: #000000;
 }
 
+
 .description-page {
   color: #000000;
   margin-bottom: 42px;
+  margin-left: 4px;
 }
 
 .sorting-dresses {
@@ -1033,11 +1040,6 @@ margin-top: 8px;
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
-}
-
-.catalog {
-  width: 810px;
-  margin-bottom: 159px;
 }
 
 /* -----------------непосредственно отсюда начинается каталог------------------------------------ */
