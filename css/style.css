@@ -755,8 +755,29 @@ margin-top: 8px;
 }
 
 /* --------------------------стили каталога--------------------------- */
+.main-header-cat {
+  margin-bottom: 0;
+}
+
+.header-logo-cat {
+  margin-bottom: 33px;
+  }
+
+.line-under-nav {
+  position: absolute;
+  top: 80px;
+  width: 1110px;
+  border-bottom: solid 1px #d4d4d4;
+}
+
 .site-navigation-cat {
-  margin-bottom: 118px;
+  margin-bottom: 100px;
+  line-height: 61px;
+  border-top: 0;
+}
+
+.card-icon-cat {
+  margin-top: 11px;
 }
 
 .catalog-cover-columns {
