@@ -985,32 +985,38 @@ margin-top: 8px;
 
 .description-page {
   color: #000000;
-  margin-bottom: 42px;
+  margin-bottom: 43px;
   margin-left: 4px;
 }
 
 .sorting-dresses {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .sorting-wrapper {
   display: flex;
-  width: 825px;
+  width: 824px;
+  margin-left: 3px;
+  padding-left: 2px;
   background-color: #f2f2f2;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
-.filter-sort .result-description {
+.filter-sort {
+  margin-bottom: -6px;
+}
+
+.filter-sort .sorting-result {
   width: 137px;
-  margin-left: 20px;
-  font-weight: 400;
-  line-height: 36px;
+  margin: 11px 0 0 19px;
+  font-weight: 500;
+  line-height: 35px;/*36px*/
   color: #000000;
 }
 
 .filter-sort .type-sorting {
-  margin-left: auto;
-  margin-right: 40px;
+  margin: 9px 37px 8px auto;
+  font-weight: 500;
   line-height: 35px;
 }
 
@@ -1026,7 +1032,7 @@ margin-top: 8px;
   content: "";
   position: absolute;
   top: 15px;
-  left: 175px;
+  left: 177px;
   width: 5px;
   height: 5px;
   border: 1px solid #000000;
@@ -1037,6 +1043,7 @@ margin-top: 8px;
 }
 
 .active-filter {
+  margin-left: 5px;
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
@@ -1046,10 +1053,11 @@ margin-top: 8px;
 .current-filter {
   position: relative;
   width: 121px;
-  bottom: 50px;
-  left: 110px;
+  bottom: 46px;
+  margin-bottom: 0;
+  left: 115px;
   font-size: 9px;
-  line-height: 36px;
+  line-height: 29px;/*36px*/
   text-transform: uppercase;
   padding-left: 13px;
   background-color: #000000;
@@ -1059,7 +1067,7 @@ margin-top: 8px;
 .current-filter::after {
   content: "";
   position: absolute;
-  top: 15px;
+  top: 11px;
   left: 105px;
   width: 6px;
   height: 6px;
@@ -1079,6 +1087,7 @@ margin-top: 8px;
   width: 827px;
   list-style: none;
   margin: 0;
+  margin-left: 5px;
   padding: 0;
 }
 
