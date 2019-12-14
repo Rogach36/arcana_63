@@ -789,37 +789,56 @@ margin-top: 8px;
   width: 280px;
 }
 
+
 .wear-category,
 .wear-subcategory {
   list-style: none;
   margin: 0;
   padding: 0;
+  }
+
+.wear-category {
+  padding-top: 20px;
+  margin-bottom: 34px;
 }
 
 .wear-category a {
   color: #000000;
 }
 
+.wear-subcategory {
+  padding-bottom: 1px;
+}
+
 .category-item {
   position: relative;
+  margin-bottom: 3px;
   font-size: 14px;
   line-height: 36px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
+.category-item-top {
+margin-bottom: 3px;
+}
+
+.category-item-blouses {
+  margin-bottom: -3px;
+}
+
 .name-category-1::after,
 .name-category-2::after {
   content: "";
   position: absolute;
-  width: 7px;
-  height: 7px;
+  width: 5px;
+  height: 5px;
   border: 1px solid #000000;
   transform: rotate(45deg);
   border-top: transparent;
   border-left: transparent;
-  left: 210px;
-  top: 13px;
+  left: 209px;
+  top: 15px;
 }
 
 .name-category-2::after {
@@ -841,7 +860,12 @@ margin-top: 8px;
   color: #000000;
 }
 
+.subcategory-item:last-child {
+  margin-bottom: 14px;
+}
+
 .filter-name {
+  margin-left: -1px;
   font-size: 14px;
   line-height: 36px;
   font-weight: 500;
