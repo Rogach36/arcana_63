@@ -1008,6 +1008,18 @@ fieldset {
   margin-bottom: 4px;
 }
 
+/*попробовать задать отдельные стили для инпут в material-list, чтобы отовинуть
+кастомные чекбоксы
+
+.filter-input-checkbox+label::before {
+
+}
+
+.filter-input-checkbox:checked+label::after {
+
+}
+
+*/
 .filter-button {
   width: 140px;
   padding-top: 15px;
