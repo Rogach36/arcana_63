@@ -873,7 +873,7 @@ margin-bottom: 3px;
 }
 
 .filter-form {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 fieldset {
@@ -996,7 +996,7 @@ fieldset {
   list-style: none;
   margin: 0;
   padding: 0;
-  /* margin-left: 1px; */
+  margin-left: 1px;
 }
 
 .filters .filter-material {
@@ -1021,11 +1021,10 @@ fieldset {
 */
 .filter-button {
   width: 140px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   border: 1px solid #000000;
-  text-align: center;
-}
+  }
 
 .catalog {
   width: 829px;
@@ -1140,6 +1139,7 @@ fieldset {
   list-style: none;
   margin: 0;
   margin-left: 3px;
+  margin-bottom: 22px;
   padding: 0;
 }
 
@@ -1240,13 +1240,14 @@ fieldset {
   display: flex;
   flex-wrap: wrap;
   width: 825px;
+  margin-left: 4px;
   background-color: #f2f2f2;
 }
 
 .pagination-description {
   width: 155px;
   margin-left: 21px;
-  line-height: 36px;
+  line-height: 24px/*36*/;
   color: #000000;
 }
 
@@ -1256,25 +1257,24 @@ fieldset {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: auto;
-  margin-right: 40px;
-  margin-top: 15px;
+  margin-left: 320px;
+  margin-right: auto;
+  margin-top: 7px;
 }
 
 .pagination-item {
-  margin-right: 7px;
 }
 
 .pagination-left-dir {
   position: relative;
-  margin-right: 19px;
+    margin-right: 17px;
   background-color: transparent;
 }
 
 .pagination-left-dir::before {
   content: "";
   position: absolute;
-  right: 70px;
+  right: 64px;
   top: 15px;
   width: 6px;
   height: 6px;
@@ -1315,6 +1315,15 @@ fieldset {
   border: 1px solid transparent;
   color: #000000;
 }
+
+.pagination-item .pagination-prev {
+  width: 56px;
+}
+
+.pagination-item .pagination-next {
+  width: 31px;
+}
+
 
 .pagination-item a:not([href]) {
   color: #ffffff;
