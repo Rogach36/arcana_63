@@ -394,7 +394,6 @@ margin-left: auto;
   /* width: 765px; */
   margin: 0 auto;
   margin-bottom: 36px;
-  padding-right: 44px;
   color: #929292;
   text-align: center;
 }
@@ -518,7 +517,7 @@ margin-left: auto;
   line-height: 64px;
   text-align: center;
   margin-top: -11px;
-  margin-bottom: -35px;
+  margin-bottom: -21px;
   color: #000000;
 }
 
@@ -1452,7 +1451,7 @@ margin-top: 9px;
 
 .field-email {
   width: 252px;
-  margin-left: 1px;
+  margin-left: 12px;
   margin-right: 6px;
   margin-bottom: -2px;
   padding-top: 14px;
@@ -1475,7 +1474,7 @@ margin-top: 9px;
 
 .our-products {
   width: 111px;
-  margin-left: 28px;
+  margin-left: 32px;
   margin-top: 3px;
 }
 
