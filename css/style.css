@@ -1262,7 +1262,16 @@ fieldset {
   margin-top: 7px;
 }
 
-.pagination-item {
+.page-number {
+margin-right: 8px;
+}
+
+.pagination-item:nth-child(2) {
+  margin-right: 2px;
+}
+
+.pagination-item:nth-child(5) {
+  margin-right: 4px;
 }
 
 .pagination-left-dir {
@@ -1288,13 +1297,13 @@ fieldset {
 .pagination-right-dir {
   position: relative;
   margin-right: 0;
-  margin-left: 19px;
+  margin-left: 9px;
 }
 
 .pagination-right-dir::after {
   content: "";
   position: absolute;
-  left: 40px;
+  left: 38px;
   top: 15px;
   width: 6px;
   height: 6px;
